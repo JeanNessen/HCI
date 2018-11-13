@@ -1,0 +1,189 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant von Nessen</title>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="../style/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid">
+    <div class="row">
+        <div class="col-sm-10"></div>
+        <div class="col-sm-2">
+        <!--https://codepen.io/danjiro/post/how-to-make-svg-loop-animation-->
+            <svg width="120" height="26">
+                <circle fill=#566573 cx="-25" cy="15" r="4">
+                    <animate id="o1" begin="0;o2.end"
+                    attributeName="cx" from="100" to="50" dur="2s" />
+                </circle>
+                <circle fill=#5DADE2 cx="75" cy="15" r="10" />
+                <circle fill=#566573 cx="-25" cy="15" r="4">
+                    <animate id="o2" begin="o1.end"
+                    attributeName="cx" from="50" to="100" dur="2s" />
+                </circle>
+            </svg>
+    </div>
+    </div>
+        <div class="row">
+            <div class="col-sm-3">
+
+                <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                <th>Navigation</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                </tr>
+                </tfoot>
+                <tbody>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block value="Input Button" onclick="location.href = '../index.html';">Hauptseite</button></td>
+                </tr>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block btn disabled">Speisekarte</button></td>
+                </tr>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block value="Input Button" onclick="location.href = 'anfahrt.html';">Anfahrt</button></td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="card card-body anyClass">
+
+                        <div class="card-body">
+                            <img src="../assets/Steak_1000x3500.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/flat-lay-photography-of-grilled-meat-on-brown-chopping-board-1268551/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Hausgemachtes Beef Barbecue</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/keine_Allergene.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Keine Allergene"></div>
+                            </div>
+                            <p class="card-text">Kalbssteak, serviert mit Brot und grünen Bohnen.</p>
+
+                            <img src="../assets/Spagett_1000x3500.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/food-dinner-pasta-spaghetti-8500/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Spaghetti Bolognese</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Glutenhaltiges_Getreide.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Gluten"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Eier.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Eier"></div>
+                            </div>
+
+
+                            <p class="card-text">Spaghetti Bolognese, mit Hackfleisch.</p>
+
+                            <img src="../assets/Beef_500x1750.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/steak-food-769289/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Cooked Beef Menü</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Eier.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Eier"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Milch.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Milch"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Senf.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Senf"></div>
+                            </div>
+
+
+                            <p class="card-text">Gekochtes Kalbsfleisch, serviert mit Kartoffelpüree und diversem Gemüse.</p>
+
+
+                            <img src="../assets/Salat_500x1750.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/spinach-chicken-pomegranate-salad-5938/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Chicken Salat mit Cranberrys</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Schalenfruechte.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Schalenfrüchte"></div>
+                            </div>
+
+
+                            <p class="card-text">Rucola Salat mit gebratenem Hänchen und Cranberrys. Wird serviert mit Frikadellen.</p>
+
+                            <img src="../assets/Burger_500x1750.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/food-dinner-lunch-unhealthy-70497/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Bacon Cheeseburger mit French Fries</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Milch.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Milch"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Senf.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Senf"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Glutenhaltiges_Getreide.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Gluten"></div>
+                            </div>
+
+
+                            <p class="card-text">Burger mit Brot, Kalbsfleisch, salat, Tomaten, Gurken und Käse. Dazu werden Pommes Frittes serviert.</p>
+
+                            <img src="../assets/Burrito_500x1750.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/burrito-chicken-delicious-dinner-461198/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Chicken Burrito</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Glutenhaltiges_Getreide.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Gluten"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Eier.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Eier"></div>
+                            </div>
+
+
+                            <p class="card-text">Hänchenburrito mit Gemüse nach Wunsch.</p>
+
+                            <img src="../assets/Stirfry_500x1750.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/vegetable-food-cooked-on-frying-pan-76093/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">Vegetarische Gemüsepfanne</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Erdnuss.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Erdnüsse"></div>
+                            </div>
+
+
+                            <p class="card-text">Gemüsepfanne mit Diversem Wunschgemüse.</p>
+
+                            <img src="../assets/Pancakes_1000x3500.jpg" class="img-fluid" alt="Sample photo" title="https://www.pexels.com/photo/blur-breakfast-close-up-dairy-product-376464/">
+
+                            <div class="row">
+                                <div class="col-sm"><h5 class="card-title">American Style Pancakes</h5></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Eier.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Eier"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Milch.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Milch"></div>
+                                <div class="col-sm-1"><img src="../assets/Icons/Glutenhaltiges_Getreide.png" class="img-fluid" alt="Sample photo" height="42" width="42" title="Gluten"></div>
+                            </div>
+
+
+                            <p class="card-text">Klassische Amerikanische Eierkuchen, serviert mit verschiedenen Beilagen, wie Ahornsirup oder Marmelade.</p>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="impressum.html">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ueber_uns.html">Über uns</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="datenschutz.html">Datenschutz</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <!-- YOUR CONTENT ENDS HERE -->
+
+
+    <!-- JavaScript: placed at the end of the document so the pages load faster -->
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

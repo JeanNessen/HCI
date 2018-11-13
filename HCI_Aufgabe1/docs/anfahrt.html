@@ -1,0 +1,114 @@
+<!-- DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant von Nessen</title>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="../style/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <!-- YOUR CONTENT STARTS HERE -->
+
+
+    <div class="grid">
+      <div class="row">
+          <div class="col-sm-10"></div>
+          <div class="col-sm-2">
+          <!--https://codepen.io/danjiro/post/how-to-make-svg-loop-animation-->
+              <svg width="120" height="26">
+                  <circle fill=#566573 cx="-25" cy="15" r="4">
+                      <animate id="o1" begin="0;o2.end"
+                      attributeName="cx" from="100" to="50" dur="2s" />
+                  </circle>
+                  <circle fill=#5DADE2 cx="75" cy="15" r="10" />
+                  <circle fill=#566573 cx="-25" cy="15" r="4">
+                      <animate id="o2" begin="o1.end"
+                      attributeName="cx" from="50" to="100" dur="2s" />
+                  </circle>
+              </svg>
+      </div>
+      </div>
+        <div class="row">
+            <div class="col-sm-3">
+
+                <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                <th>Navigation</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                </tr>
+                </tfoot>
+                <tbody>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block value="Input Button" onclick="location.href = '../index.html';">Hauptseite</button></td>
+                </tr>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block value="Input Button" onclick="location.href = 'speisekarte.html';">Speisekarte</button></td>
+                </tr>
+                <tr>
+                <td><button type="button" class="btn btn-outline-secondary btn-block btn disabled">Anfahrt</button></td>
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="card anyClass">
+                    <div class="col-sm">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Anfahrt</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3042.340969604542!2d8.649939190252276!3d50.118227482473785!2m3!1f0!2f0
+                            !3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd093585d45983%3A0xb5c687ede0f221e3!2sGoethe-Universit%C3%A4t+Frankfurt+am+Main+(Campus+Bockenheim)
+                            !5e0!3m2!1sde!2sde!4v1542119283551" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="impressum.html">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ueber_uns.html">Über uns</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="datenschutz.html">Datenschutz</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <!-- YOUR CONTENT ENDS HERE -->
+
+
+    <!-- JavaScript: placed at the end of the document so the pages load faster -->
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
