@@ -1,0 +1,14 @@
+.anyClass {
+    height:890px;
+    overflow-y: scroll;
+}
+ <!-- https://stackoverflow.com/questions/40112618/bootstrap4-adding-scrollbar-to-div -->
+
+img{
+    width:100%;
+    max-width:600px;
+}
+.no-padding{
+    padding-left:0;
+    padding-right:0;
+}
