@@ -3,19 +3,32 @@
 <html lang="en">
   <head>
   <style>
-  .anyClass {
+    .anyClass {
         height:20px;
         overflow-y: scroll;
+    }
+    .card-img:hover {
+      background-color: red;
+      opacity: 0.5;
+    }
+    h5 {
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+    }
+    p {
+      color: white;
+      text-shadow: 4px 4px 8px #000000;
     }
 
 
   </style>
-    <title>Resteraunt Tomato au Gratin</title>
+    <title>Restaurant von Nessen</title>
     <meta charset="utf-8">
     <!-- Viewport Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   </head>
   <body>
 
@@ -48,7 +61,7 @@
                         attributeName="cx" from="50" to="100" dur="2s" />
                     </circle>
                 </svg>
-        </div>
+        </div> <!-- logo-->
         </div>
         <div class="row">
             <div class="col-sm-3">
@@ -75,20 +88,22 @@
                 </tr>
                 </tbody>
                 </table>
-            </div>
-            <div class="col-sm-9">
+            </div><!--- Navigations Leiste-->
+            <div class="col-sm-9"> <!--Hauptteil-->
                 <div class="row">
-                    <div class="col-sm">
-                        <img src="IMG_2572Flower.jpg" class="img-fluid" alt="Sample photo">
+                  <div class="card bg-dark text-white">
+                    <img class="card-img" src="assets/IMG_2572Flower.jpg" alt="Bild von Chillis">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title ">Restaurant von Nessen</h5>
+                      <p class="card-text">Wilkommen auf der Webseite des Restaurant "von Nessen". Auf der Speisekarte finden sie unser Menü, sowie ständig wechselnde Specials.</p>
+
                     </div>
-                    <div class="col-sm">
-                    Willkommen zu unserer Webseite, ich hoffe sie haben einen schönen Aufenthalt und ich wünsche ihnen einen guten appetit, und viel Spaß beim stöbern.
-                    </div>
+                  </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm"> <!-- Footer-->
                 <ul class="list-inline">
                     <li class="list-inline-item">Über uns: Nettes imaginäres Resteraunt mit Blick aufs Meer.</li>
                     <li class="list-inline-item">Impressum: Lorem Impressum dolor</li>
