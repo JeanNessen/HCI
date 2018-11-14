@@ -1,4 +1,4 @@
-
+﻿
 Quellen für die Essens Bilder:
 https://www.pexels.com/photo/burrito-chicken-delicious-dinner-461198/
 https://www.pexels.com/photo/blur-breakfast-close-up-dairy-product-376464/
@@ -11,3 +11,7 @@ https://www.pexels.com/photo/flat-lay-photography-of-grilled-meat-on-brown-chopp
 
 Quelle für die Allergen Icons:
 https://www.declaratio.net/hilfsmittel/allergensymbolik/materialen/
+
+Leider funktioniert das stoppen des logos beim mousehover nicht. 
+
+Seite funktioniert auf Chrome.
