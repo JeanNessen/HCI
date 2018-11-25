@@ -1,0 +1,34 @@
+.anyClass {
+    height:856px;
+    overflow-y: scroll;
+}
+ <!-- https://stackoverflow.com/questions/40112618/bootstrap4-adding-scrollbar-to-div -->
+ .iframe-container{
+     position: relative;
+     width: 100%;
+     padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+ }
+ .iframe-container > *{
+     display: block;
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 10px;
+     margin: 0;
+     padding: 10px;
+     height: 100%;
+     width: 100%;
+     overflow-x: hidden;
+ }
+
+ /* Demo styles */
+
+ .iframe-container{
+   margin-bottom: 50px;
+   background: #eee;
+ }
+
+ body{
+   overflow-x: hidden;
+ }
