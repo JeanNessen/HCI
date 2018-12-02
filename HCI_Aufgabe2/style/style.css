@@ -30,5 +30,7 @@
  }
 
  body{
-   overflow-x: hidden;
+    overflow-x: hidden;
+    background-image:"../assets/vaporwave_background.png";
+
  }
