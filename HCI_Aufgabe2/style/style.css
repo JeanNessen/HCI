@@ -31,6 +31,20 @@
 
  body{
     overflow-x: hidden;
-    background-image:"../assets/vaporwave_background.png";
-
+    background-image: linear-gradient(90deg, #ff71ce 25%, #01cdfe 75%)
  }
+.vapor{
+    background-image: linear-gradient(90deg, #ff71ce 25%, #01cdfe 75%)
+}
+h5 {
+    color: white;
+}
+.white{
+    color: white;
+}
+p {
+    color: white;
+}
+h2 {
+    color: white;
+}
